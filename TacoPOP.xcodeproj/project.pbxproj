@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		34CEF36DED11EE7820A442A1 /* Pods_TacoPOP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E12F98E2FA4B93D8D6BCF95 /* Pods_TacoPOP.framework */; };
 		48C9F1D31FEB63B700EA4BA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9F1D21FEB63B700EA4BA1 /* AppDelegate.swift */; };
-		48C9F1D51FEB63B800EA4BA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9F1D41FEB63B800EA4BA1 /* ViewController.swift */; };
 		48C9F1D81FEB63B800EA4BA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C9F1D61FEB63B800EA4BA1 /* Main.storyboard */; };
 		48C9F1DA1FEB63B800EA4BA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48C9F1D91FEB63B800EA4BA1 /* Assets.xcassets */; };
 		48C9F1DD1FEB63B800EA4BA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C9F1DB1FEB63B800EA4BA1 /* LaunchScreen.storyboard */; };
 		48C9F1E81FEB63B800EA4BA1 /* TacoPOPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9F1E71FEB63B800EA4BA1 /* TacoPOPTests.swift */; };
+		48C9F1FA1FEB686600EA4BA1 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9F1F91FEB686600EA4BA1 /* MainVC.swift */; };
+		48C9F20D1FEC9F7B00EA4BA1 /* DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9F20C1FEC9F7B00EA4BA1 /* DropShadow.swift */; };
+		48C9F20F1FECA0D400EA4BA1 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9F20E1FECA0D400EA4BA1 /* HeaderView.swift */; };
+		48C9F2111FECA4D600EA4BA1 /* Taco.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9F2101FECA4D600EA4BA1 /* Taco.swift */; };
 		8581DFDE8B37C57F75364AA9 /* Pods_TacoPOPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E91FEC631508BCB559D03F6 /* Pods_TacoPOPTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,7 +36,6 @@
 		3E91FEC631508BCB559D03F6 /* Pods_TacoPOPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TacoPOPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C9F1CF1FEB63B700EA4BA1 /* TacoPOP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TacoPOP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C9F1D21FEB63B700EA4BA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		48C9F1D41FEB63B800EA4BA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		48C9F1D71FEB63B800EA4BA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48C9F1D91FEB63B800EA4BA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48C9F1DC1FEB63B800EA4BA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -41,6 +43,10 @@
 		48C9F1E31FEB63B800EA4BA1 /* TacoPOPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TacoPOPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C9F1E71FEB63B800EA4BA1 /* TacoPOPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacoPOPTests.swift; sourceTree = "<group>"; };
 		48C9F1E91FEB63B800EA4BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48C9F1F91FEB686600EA4BA1 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		48C9F20C1FEC9F7B00EA4BA1 /* DropShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropShadow.swift; sourceTree = "<group>"; };
+		48C9F20E1FECA0D400EA4BA1 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		48C9F2101FECA4D600EA4BA1 /* Taco.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taco.swift; sourceTree = "<group>"; };
 		A36A1F1500FABBA2CB98B0EA /* Pods-TacoPOP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TacoPOP.release.xcconfig"; path = "Pods/Target Support Files/Pods-TacoPOP/Pods-TacoPOP.release.xcconfig"; sourceTree = "<group>"; };
 		B307743EA12F43F089D14ECF /* Pods-TacoPOPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TacoPOPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TacoPOPTests/Pods-TacoPOPTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BCBD90E51261A4B0AD1467B5 /* Pods-TacoPOPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TacoPOPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TacoPOPTests/Pods-TacoPOPTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -89,12 +95,12 @@
 		48C9F1D11FEB63B700EA4BA1 /* TacoPOP */ = {
 			isa = PBXGroup;
 			children = (
-				48C9F1D21FEB63B700EA4BA1 /* AppDelegate.swift */,
-				48C9F1D41FEB63B800EA4BA1 /* ViewController.swift */,
-				48C9F1D61FEB63B800EA4BA1 /* Main.storyboard */,
-				48C9F1D91FEB63B800EA4BA1 /* Assets.xcassets */,
-				48C9F1DB1FEB63B800EA4BA1 /* LaunchScreen.storyboard */,
-				48C9F1DE1FEB63B800EA4BA1 /* Info.plist */,
+				48C9F1F81FEB680100EA4BA1 /* Protocols */,
+				48C9F1F71FEB67F800EA4BA1 /* Extension */,
+				48C9F1F61FEB67F200EA4BA1 /* Model */,
+				48C9F1F51FEB67EC00EA4BA1 /* View */,
+				48C9F1F41FEB67C700EA4BA1 /* Controller */,
+				48C9F1F31FEB666D00EA4BA1 /* Resources */,
 			);
 			path = TacoPOP;
 			sourceTree = "<group>";
@@ -106,6 +112,57 @@
 				48C9F1E91FEB63B800EA4BA1 /* Info.plist */,
 			);
 			path = TacoPOPTests;
+			sourceTree = "<group>";
+		};
+		48C9F1F31FEB666D00EA4BA1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				48C9F1DE1FEB63B800EA4BA1 /* Info.plist */,
+				48C9F1D91FEB63B800EA4BA1 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		48C9F1F41FEB67C700EA4BA1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				48C9F1D21FEB63B700EA4BA1 /* AppDelegate.swift */,
+				48C9F1F91FEB686600EA4BA1 /* MainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		48C9F1F51FEB67EC00EA4BA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				48C9F1D61FEB63B800EA4BA1 /* Main.storyboard */,
+				48C9F1DB1FEB63B800EA4BA1 /* LaunchScreen.storyboard */,
+				48C9F20E1FECA0D400EA4BA1 /* HeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		48C9F1F61FEB67F200EA4BA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				48C9F2101FECA4D600EA4BA1 /* Taco.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		48C9F1F71FEB67F800EA4BA1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		48C9F1F81FEB680100EA4BA1 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				48C9F20C1FEC9F7B00EA4BA1 /* DropShadow.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		9E915B9EC41CBD60CDD273D5 /* Pods */ = {
@@ -339,8 +396,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48C9F1D51FEB63B800EA4BA1 /* ViewController.swift in Sources */,
 				48C9F1D31FEB63B700EA4BA1 /* AppDelegate.swift in Sources */,
+				48C9F20D1FEC9F7B00EA4BA1 /* DropShadow.swift in Sources */,
+				48C9F1FA1FEB686600EA4BA1 /* MainVC.swift in Sources */,
+				48C9F2111FECA4D600EA4BA1 /* Taco.swift in Sources */,
+				48C9F20F1FECA0D400EA4BA1 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,7 +556,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J6JJA4UC5Z;
-				INFOPLIST_FILE = TacoPOP/Info.plist;
+				INFOPLIST_FILE = TacoPOP/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.samchon.TacoPOP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -512,7 +572,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J6JJA4UC5Z;
-				INFOPLIST_FILE = TacoPOP/Info.plist;
+				INFOPLIST_FILE = TacoPOP/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.samchon.TacoPOP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
