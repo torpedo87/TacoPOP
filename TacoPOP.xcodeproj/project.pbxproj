@@ -17,6 +17,7 @@
 		48C9F20D1FEC9F7B00EA4BA1 /* DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9F20C1FEC9F7B00EA4BA1 /* DropShadow.swift */; };
 		48C9F20F1FECA0D400EA4BA1 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9F20E1FECA0D400EA4BA1 /* HeaderView.swift */; };
 		48C9F2111FECA4D600EA4BA1 /* Taco.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9F2101FECA4D600EA4BA1 /* Taco.swift */; };
+		48C9F2131FECAABC00EA4BA1 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9F2121FECAABC00EA4BA1 /* DataService.swift */; };
 		8581DFDE8B37C57F75364AA9 /* Pods_TacoPOPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E91FEC631508BCB559D03F6 /* Pods_TacoPOPTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		48C9F20C1FEC9F7B00EA4BA1 /* DropShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropShadow.swift; sourceTree = "<group>"; };
 		48C9F20E1FECA0D400EA4BA1 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		48C9F2101FECA4D600EA4BA1 /* Taco.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taco.swift; sourceTree = "<group>"; };
+		48C9F2121FECAABC00EA4BA1 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		A36A1F1500FABBA2CB98B0EA /* Pods-TacoPOP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TacoPOP.release.xcconfig"; path = "Pods/Target Support Files/Pods-TacoPOP/Pods-TacoPOP.release.xcconfig"; sourceTree = "<group>"; };
 		B307743EA12F43F089D14ECF /* Pods-TacoPOPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TacoPOPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TacoPOPTests/Pods-TacoPOPTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BCBD90E51261A4B0AD1467B5 /* Pods-TacoPOPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TacoPOPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TacoPOPTests/Pods-TacoPOPTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				48C9F2101FECA4D600EA4BA1 /* Taco.swift */,
+				48C9F2121FECAABC00EA4BA1 /* DataService.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -399,6 +402,7 @@
 				48C9F1D31FEB63B700EA4BA1 /* AppDelegate.swift in Sources */,
 				48C9F20D1FEC9F7B00EA4BA1 /* DropShadow.swift in Sources */,
 				48C9F1FA1FEB686600EA4BA1 /* MainVC.swift in Sources */,
+				48C9F2131FECAABC00EA4BA1 /* DataService.swift in Sources */,
 				48C9F2111FECA4D600EA4BA1 /* Taco.swift in Sources */,
 				48C9F20F1FECA0D400EA4BA1 /* HeaderView.swift in Sources */,
 			);
